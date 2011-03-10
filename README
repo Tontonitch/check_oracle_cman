@@ -1,0 +1,11 @@
+BLABLA
+
+NSClient++ integration:
+
+; Script to check external scripts and/or internal aliases.
+CheckExternalScripts.dll
+[...]
+[External Scripts]
+[...]
+check_oracle_cman=perl scripts\check_oracle_cman.pl --mode="$ARG1$" --environment="C:\oracle\client11g"
+[...]
