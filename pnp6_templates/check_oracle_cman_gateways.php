@@ -1,7 +1,10 @@
 <?php
 
 #
-# Pnp template for check_oracle_cman.pl plugin.
+# Pnp template for CheckDriveSize (NSClient++) checkcommand. Tested for NSClient++ 0.3.6 & 0.3.8
+# Includes the possibility to choose if and how datasources are gathered.
+# Exemple: $gather_graphs=1 means all percent datasources are plotted on a unique graph, while
+# all bytes datasources are plotted on separate graphs.
 # By Yannick Charton (tontonitch-pro@yahoo.fr)
 # Based on Joerg Linge templates
 #
