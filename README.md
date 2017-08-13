@@ -23,6 +23,7 @@ The following can be checked/monitored:
 This plugin can be used in 2 ways:
  * from the monitoring server, connecting to the cmon service running on the cman server
  * from the cman server itself
+
 I would recommend the second way, especially when using the icinga2 agent, as 
  * you would not have to open any special firewall rules for remote connections to the cmon service
  * you would not have to enable cman remote management
