@@ -6,13 +6,3 @@ vendor: oracle
 target: database
 type: plugin
 license: gplv3
-releases: 
-  - 
-    name: 1.0
-    description: "1.0 Release"
-    files: 
-      - 
-        name: check_oracle_cman.pl
-        url: "file:///check_oracle_cman.pl"
-        description: ""
-        checksum: cee5cc70696bd38863fed66dccc15293
